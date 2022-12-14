@@ -1,0 +1,98 @@
+* {
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  color: #cee3e9;
+}
+
+body {
+  background-color: hsl(218, 23%, 16%);
+}
+.container {
+  max-width: 95%;
+}
+
+.content {
+  background-color: hsl(217, 19%, 24%);
+  margin: 15% auto;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: -11px 12px 27px 1px rgba(0, 0, 0, 0.02);
+  -webkit-box-shadow: -11px 12px 27px 1px rgba(0, 0, 0, 0.02);
+  -moz-box-shadow: -11px 12px 27px 1px rgba(0, 0, 0, 0.02);
+}
+
+.adviceNo {
+  padding-top: 50px;
+}
+.reroll {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 40px;
+}
+
+.reroll .btn {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: hsl(150, 100%, 66%);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: -11px 12px 27px 1px rgba(0, 0, 0, 0.02);
+  -webkit-box-shadow: -11px 12px 27px 1px rgba(0, 0, 0, 0.02);
+  -moz-box-shadow: -11px 12px 27px 1px rgba(0, 0, 0, 0.02);
+}
+
+.btn img {
+  width: 30px;
+  color: hsl(218, 23%, 16%);
+}
+.btn {
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background-color: hsl(150, 100%, 66%);
+  filter: drop-shadow(0 0 20px hsl(150, 100%, 66%)) contrast(1) brightness(1);
+  transition: all 0.5s ease;
+}
+
+.adviceNo p {
+  color: hsl(150, 100%, 66%);
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 4px;
+}
+
+#adviceNo {
+  color: hsl(150, 100%, 66%);
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 4px;
+}
+
+.dividerImg-1,
+.dividerImg-2 {
+  width: 90%;
+}
+#adviceText {
+  margin: 25px;
+  font-size: 2rem;
+}
+.dividerImg-2 {
+  display: none;
+}
+
+@media screen and (min-width: 480px) {
+  .dividerImg-1 {
+    display: none;
+  }
+  .dividerImg-2 {
+    display: block;
+    margin: auto;
+  }
+  .container {
+    max-width: 60%;
+  }
+}
